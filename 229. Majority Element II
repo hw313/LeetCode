@@ -18,7 +18,7 @@ public:
                 j++;
         }
         }
-        if(j-i>n/3) majorityElement.push_back(nums[i]);
+        if(j-i>n/3) majorityElement.push_back(nums[i]);//最后几个元素相同时要考虑
         return majorityElement;
     }
 };
